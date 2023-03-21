@@ -4,6 +4,9 @@ using namespace std;
 
 int main(void)
 {
+	ios_base::sync_with_stdio(false);
+	cin.tie(0);
+
 	int* arry = new int[10001];
 	static int N = -1;
 	int Count;	cin >> Count;
